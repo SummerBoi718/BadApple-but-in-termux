@@ -2,7 +2,6 @@ import time
 import os
 
 ASCII_FILE = "ascii_frames.txt"
-VIDEO_FILE = "video.mp4"
 FRAME_DELAY = 0.033
 
 if __name__ == "__main__":
@@ -10,7 +9,6 @@ if __name__ == "__main__":
         frame_raw = f.read().replace(".", " ")
     
     frames = frame_raw.split("SPLIT")
-    os.system(f"mplayer -vo null -vc null {VIDEO_FILE} &")
     
     init_time = time.time()
     total_frames = len(frames)
