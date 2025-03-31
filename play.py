@@ -19,7 +19,7 @@ if __name__ == "__main__":
         frame_index = int((time.time() - init_time) / FRAME_DELAY)
         if frame_index >= total_frames:
             break
-        os.system("cls")
+        os.system("clear")
         print(frames[frame_index])
         time.sleep(FRAME_DELAY)
     
