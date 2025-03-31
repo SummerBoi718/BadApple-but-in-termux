@@ -1,6 +1,6 @@
 # ASCII Video Player
 
-This project converts video frames into ASCII art and plays them as an animated sequence in the terminal.
+This project converts video frames into ASCII art with edges and plays them as an animated sequence in the terminal.
 
 ## 📽️ How to Play the ASCII Animation
 To play the pre-generated ASCII animation, simply run:
