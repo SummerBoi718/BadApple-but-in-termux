@@ -23,6 +23,5 @@ Ensure you have the following installed:
 - Python 3
 - OpenCV (`cv2`)
 - Pillow (`PIL`)
-- MPlayer (for audio playback)
 
 
